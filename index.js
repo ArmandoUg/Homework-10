@@ -115,4 +115,43 @@ function createIntern() {
     });
 }
 
+function createCard(employee) {
+    if (employee.getRole() === "Manager") {
+        return `
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">${employee.getName()}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${employee.getRole()}</h6>
+                <p class="card-text">ID: ${employee.getId()}</p>
+                <p class="card-text">Email: ${employee.getEmail()}</p>
+                <p class="card-text">Office Number: ${employee.getOfficeNumber()}</p>
+            </div>
+        </div>
+        `;
+    } else if (employee.getRole() === "Engineer") {
+        return `
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">${employee.getName()}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${employee.getRole()}</h6>
+                <p class="card-text">ID: ${employee.getId()}</p>
+                <p class="card-text">Email: ${employee.getEmail()}</p>
+                <p class="card-text">Github: ${employee.getGithub()}</p>
+            </div>
+        </div>
+        `;
+    } else if (employee.getRole() === "Intern") {
+        return `
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">${employee.getName()}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${employee.getRole()}</h6>
+                <p class="card-text">ID: ${employee.getId()}</p>
+                <p class="card-text">Email: ${employee.getEmail()}</p>
+                <p class="card-text">School: ${employee.getSchool()}</p>
+            </div>
+        </div>
+        `;
+    }
+}
 init();
