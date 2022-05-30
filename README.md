@@ -14,6 +14,6 @@ This is the readme file for my Team Profile "Enginerator". This script will prov
 
 ## Demo
 Here is a link to a html page that has a short video demo of how a user operates the "Enginerator".
-
+- [Demo Link](https://armandoug.github.io/hw-10-demo/)
 ## Links to git hub repo
 - [Github link](https://github.com/ArmandoUg/Homework-10)
