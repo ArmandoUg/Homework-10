@@ -7,7 +7,7 @@ This is the readme file for my Team Profile "Enginerator". This script will prov
 ## Here is a screenshot of a html created after the "Enginerator" is used by a user.
 
 
-![Screenshot of created team page]()
+![Screenshot of created team page](./assets/team%20gen.jpg)
 
 
 
